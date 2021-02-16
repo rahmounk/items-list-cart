@@ -1,7 +1,9 @@
+// Fonction composant l'image le nom et le prix
 function Products(pic, name, price) {
    (this.pic = pic), (this.name = name), (this.price = price);
 }
 
+// mes constantes contenant nom image et prix
 const product1 = new Products("./assets/image/figure1.jpg", "Zoro", 80);
 const product2 = new Products("../assets/image/figure2.jpg", "Mirai", 70);
 const product3 = new Products(
